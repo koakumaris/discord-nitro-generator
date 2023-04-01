@@ -15,6 +15,6 @@ public class TrayIconManipulator {
 	}
 
 	public void sendNotification(String msg) {
-		trayIcon[0].displayMessage("Notificação!", msg, MessageType.NONE);
+		trayIcon[0].displayMessage("Notification!", msg, MessageType.NONE);
 	}
 }

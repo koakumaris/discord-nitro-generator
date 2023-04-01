@@ -1,4 +1,4 @@
-package trayicon;
+package iconebemfodasenocantodatela;
 
 import java.awt.AWTException;
 import java.awt.MenuItem;

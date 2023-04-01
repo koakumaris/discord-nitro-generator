@@ -1,9 +1,9 @@
-package registrador;
+package register;
 
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class RegistrarCodigos {
+public class RegisterCode {
 
     public static void register(String code) {
     	
@@ -11,9 +11,9 @@ public class RegistrarCodigos {
         try {
             FileWriter writer = new FileWriter(fileName, true);
             writer.write(code);
-            writer.write(System.lineSeparator()); // Add a new line after the data
+            writer.write(System.lineSeparator());
             writer.close();
-            System.out.println("Codigo adicionado ao arquivo.");
+            System.out.println("Code added to file.");
         } catch (IOException e) {
             System.out.println("An error has Okuued.");
             e.printStackTrace();
